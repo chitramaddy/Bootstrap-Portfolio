@@ -8,21 +8,21 @@
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
 </head>
 
 <body>
     <!--Wrapper for the entire body-->
-    <div class="wrapper mx-3">
+    <div class="wrapper">
 
         <!--Container that holds the header-->
-
         <div class="container border-bottom mb-3">
-            <div class="row py-2">
+            <div class="row" id="header">
                 <div class="col-md-6">
-                    <h1 class="text-justify">Chitra Madhan</h1>
+                    <h2 class="text-left">Chitra Madhan</h2>
                 </div>
 
-                <ul class="nav justify-content-end border-0">
+                <ul class="nav nav-tabs float-right border-0">
                     <li class="nav-item">
                         <a class="nav-link text-secondary border-right" href="index.html ">About me</a>
                     </li>
@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Contact</h2>
+                    <h3>Contact</h3>
                     <form action="/action_page.php">
                         <div class="form-group">
                             <label for="Name">Name:</label>
@@ -55,8 +55,8 @@
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <div class="card-body bg-white">
-                        <h5 class="card-title text-center">Connect with me</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Connect with me</h5>
                         <a href="https://github.com/chitramaddy/chitramaddy.github.io">
                             <img src="assets/Images/Git hub.png" class="social" alt="GitHub" />
                         </a>
@@ -68,9 +68,11 @@
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
+
+
+
 
         <Div class="container">
             <div class="row border-bottom">
@@ -80,19 +82,18 @@
                             <label for="Textarea">Message</label>
                             <textarea class="form-control" id="Textarea" rows="6"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-default mb-3">Submit</button>
+                        <button type="submit" class="btn btn-default bg-light mb-3">Submit</button>
                     </form>
                 </div>
             </Div>
 
 
             <!--this is the row with footer-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 offset-md-4">
-                        <p> &copy copyright 2018 Chitra Madhan </p>
-                    </div>
+            <div class="container-fluid text-center">
+                <div class="footer navbar-fixed-bottom">
+                    <p class="footer-text"> &copy copyright 2018 </p>
                 </div>
+
             </div>
 
         </div>
