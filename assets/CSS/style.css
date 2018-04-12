@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url('../Images/ysb.jpg') repeat;
+    background: url('../Images/ysb.jpg');
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(36, 35, 34);
 }
