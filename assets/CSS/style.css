@@ -25,14 +25,19 @@ h2 {
 }
 
 .footer {
-    background-color: rgb(116, 111, 106);
-    height: 15%;
-    padding: 10px;
+    position: fixed;
+    /* left: 0;*/
+    bottom: 0; 
+    width: 960px;
+    margin: 0 auto;
+    background-color: teal;
+    color: white;
+    text-align: center;
 }
 
-.footer-text {
+/* .footer-text {
     color: #fff;
-}
+} */
 
 .card {
     background: rgba(206, 197, 224, 0.781)
